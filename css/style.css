@@ -9,6 +9,7 @@ body {
   width: 100%;
   left: 50%;
   transform: translate(-50%);
+  font-size: 18px;
 }
 
 /* Yamichi.biz */
@@ -28,15 +29,12 @@ body {
   height: 0;
 }
 
-
-
 .owl-carousel {
   display: none;
   position: relative;
   width: 100%;
   -ms-touch-action: pan-y;
 }
-
 
 .owl-carousel .owl-wrapper {
   display: none;
@@ -81,13 +79,9 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
-
-
 .grabbing {
   cursor: url(grabbing.png) 8 8, move;
 }
-
-
 
 .owl-carousel .owl-wrapper,
 .owl-carousel .owl-item {
@@ -98,7 +92,6 @@ body {
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
 }
-
 
 * 	Owl Carousel Owl Demo Theme
 *	v1.3.2
@@ -169,8 +162,6 @@ body {
 
   opacity: 1;
 }
-
-
 
 .owl-item.loading {
   min-height: 150px;
@@ -599,7 +590,7 @@ header {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 110%;
+  font-size: 100%;
   font-weight: normal;
 }
 
