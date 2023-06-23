@@ -20,6 +20,10 @@ body {
   box-sizing: border-box;
 }
 
+.bolded {
+  font-weight: 800;
+}
+
 .owl-carousel .owl-wrapper:after {
   content: ".";
   display: block;
